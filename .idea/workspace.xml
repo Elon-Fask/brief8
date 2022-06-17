@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ad53ca2-e14e-42af-bb76-3f2ba31160cf" name="Changes" comment="">
+    <list default="true" id="9ad53ca2-e14e-42af-bb76-3f2ba31160cf" name="Changes" comment="main">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -61,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655456459657</updated>
     </task>
+    <task id="LOCAL-00001" summary="main">
+      <created>1655485620993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655485620993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
 </project>
