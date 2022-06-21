@@ -7,11 +7,12 @@
 <?import javafx.scene.layout.Pane?>
 
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.brief8.LoginController" StyleSheet="resources/org/brief8/styleLogin.css" >
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="602.0">
          <children>
-            <Button layoutX="418.0" layoutY="258.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="LOGIN" />
+            <Button  layoutX="418.0" layoutY="258.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="login" />
+            <!-- fx:id="buttom" -->
             <TextField layoutX="376.0" layoutY="163.0" prefHeight="26.0" prefWidth="172.0" promptText="Username" />
             <TextField layoutX="376.0" layoutY="211.0" prefHeight="26.0" prefWidth="172.0" promptText="Password" />
             <Pane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: rgba(244, 91, 105, 1);" />

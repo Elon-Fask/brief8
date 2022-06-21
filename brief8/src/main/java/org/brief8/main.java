@@ -8,6 +8,11 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 
 
+/**
+* @author Atman Boulaajaili
+* https://github.com/Elon-Fask/
+*/
+
 public class main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -16,10 +21,10 @@ public class main extends Application {
             Scene scene = new Scene(root);
             primaryStage.setTitle("Brit Ndir");
 
-            /*
-             * scene.getStylesheets().add(getClass().getResource("application.css").
-             * toExternalForm());
-             */
+           
+            scene.getStylesheets().add(getClass().getResource("styleLogin.css").
+            toExternalForm());
+             
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(Exception e) {
