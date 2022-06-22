@@ -21,10 +21,10 @@ public class main extends Application {
             Scene scene = new Scene(root);
             primaryStage.setTitle("Brit Ndir");
 
-           
+           /*
             scene.getStylesheets().add(getClass().getResource("styleLogin.css").
             toExternalForm());
-             
+             */
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(Exception e) {

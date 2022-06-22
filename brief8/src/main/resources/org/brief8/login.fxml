@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.brief8.LoginController" StyleSheet="resources/org/brief8/styleLogin.css" >
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.brief8.LoginController" >
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="602.0">
          <children>
