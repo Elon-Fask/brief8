@@ -1,8 +1,8 @@
-package org.brief8;
+package org.brief8.models;
 
 public class User {
     protected String idUser;
-    protected String userName;
+    protected String username;
     protected String firstName;
     protected String lastName;
     protected String email;
@@ -21,11 +21,11 @@ public class User {
     }
 
     public String getUserName() {
-        return userName;
+        return username;
     }
 
     public void setUserName(String userName) {
-        this.userName = userName;
+        this.username = userName;
     }
 
     public String getFirstName() {
@@ -64,7 +64,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "idUser='" + idUser + '\'' +
-                ", userName='" + userName + '\'' +
+                ", userName='" + username + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +

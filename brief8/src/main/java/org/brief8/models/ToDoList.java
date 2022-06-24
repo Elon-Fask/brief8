@@ -1,4 +1,4 @@
-package org.brief8;
+package org.brief8.models;
 
 public class ToDoList {
 }

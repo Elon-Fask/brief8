@@ -1,4 +1,4 @@
-package org.brief8;
+package org.brief8.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

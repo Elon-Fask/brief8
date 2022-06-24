@@ -1,4 +1,4 @@
-package org.brief8;
+package org.brief8.controller;
 
 import java.io.IOException;
 import java.sql.Connection;
