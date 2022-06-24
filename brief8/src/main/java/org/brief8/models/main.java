@@ -1,5 +1,8 @@
 package org.brief8.models;
 
+import java.io.File;
+import java.net.URL;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
@@ -17,7 +20,9 @@ public class main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         try {
-            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("resources/org/brief8/login.fxml"));
+        	URL url = new File("src/main/resources/org/brief8/login.fxml").toURI().toURL();
+        	
+            Parent root = FXMLLoader.load(url);
             Scene scene = new Scene(root);
             primaryStage.setTitle("Brit Ndir");
 
