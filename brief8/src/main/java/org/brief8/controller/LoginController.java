@@ -6,8 +6,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import java.sql.Statement;
 
-import org.brief8.dao.SrcDAO;
+
+import org.brief8.dao.LoginDao;
+import org.brief8.models.User;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -23,7 +26,16 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
-public class LoginController implements SrcDAO {
+public class LoginController implements LoginDao{
+
+	
+	@Override
+	public boolean login(User user) {
+		
+
+		return false;
+			
+	}
 
 	
 }

@@ -1,5 +1,9 @@
 package org.brief8.controller;
 
-public class UIController {
+import org.brief8.dao.UiDao;
+
+public class UIController implements UiDao {
+	
+	
 
 }

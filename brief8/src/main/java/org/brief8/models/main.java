@@ -20,7 +20,7 @@ public class main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         try {
-        	URL url = new File("src/main/resources/org/brief8/login.fxml").toURI().toURL();
+        	URL url = new File("src/main/resources/org/brief8/Ui.fxml").toURI().toURL();
         	
             Parent root = FXMLLoader.load(url);
             Scene scene = new Scene(root);
